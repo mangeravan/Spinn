@@ -1,11 +1,11 @@
 {
-    "name": "flibreward",
-    "short_name": "flibreward",
+    "name": "SpinnerMaster",
+    "short_name": "SpinnerMaster",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "theme_color": "#1F4592FF",
+    "description": "Play SpinnerMaster online with exciting number betting options, real-time results, and a chance to win big! New users get a ₹100 wallet bonus to kickstart their game. Join now for thrilling gameplay and secure bets!",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
