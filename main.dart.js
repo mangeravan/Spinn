@@ -44668,14 +44668,15 @@ A.kJ.prototype={
 ad(){var s=$.as()
 return new A.Rz(new A.hb(B.bv,s),new A.hb(B.bv,s))}}
 A.Rz.prototype={
-an(){this.vD()
-this.aN()},
-M(a){var s,r,q=this,p=null,o=document.documentElement
-if(o!=null)J.XN(o)
-o=$.i5()
-s=t.E
-r=A.GI(!1,$.G8(),!0,p,p,A.ib(A.b([A.tm(A.b([A.tm(A.b([A.rv("asset/logof.png",55,55),A.cO(p,p,10),A.bp("SpinnerMaster",p,p,p,A.bS(p,p,B.j,p,p,p,p,p,p,p,p,16,B.fU,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)],s),B.aw,B.az,B.aA),A.tm(A.b([A.cR(A.awE(new A.al1(q),q.vz(),t.y),p,p),A.cR(A.Jq(p,A.Jp(B.EI,B.j,p,p),p,p,new A.al2(q,a),p,p),p,p)],s),B.aw,B.jV,B.aA)],s),B.aw,B.jW,B.aA),A.cR(A.mk(!1,!0,new A.bt(B.cp,A.bp("My Balance "+q.f,p,p,p,A.bS(p,p,B.j,p,p,p,p,p,p,p,p,14,p,p,B.bo,p,p,!0,p,p,p,p,p,p,p,p),p,p),p),p,!0,p,p,p,p,p,p,p,p,p,new A.al3(q,a),p,p,p,p),p,p)],s),B.b9,B.az,B.aA),90)
-return A.Mg(r,o,q.r?A.cR(new A.wk(p,p,B.j,p,p,p,p),p,p):A.JP(A.b([q.iS(20),q.iS(30),q.iS(50),q.iS(100),q.iS(200),q.iS(300),q.iS(500),q.iS(1000),q.iS(3000),q.iS(5000),q.iS(8000)],s),B.ac))},
+an(){this.aN()},
+M(a){var s,r,q,p=this,o=null
+p.vD()
+s=document.documentElement
+if(s!=null)J.XN(s)
+s=$.i5()
+r=t.E
+q=A.GI(!1,$.G8(),!0,o,o,A.ib(A.b([A.tm(A.b([A.tm(A.b([A.rv("asset/logof.png",55,55),A.cO(o,o,10),A.bp("SpinnerMaster",o,o,o,A.bS(o,o,B.j,o,o,o,o,o,o,o,o,16,B.fU,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o)],r),B.aw,B.az,B.aA),A.tm(A.b([A.cR(A.awE(new A.al1(p),p.vz(),t.y),o,o),A.cR(A.Jq(o,A.Jp(B.EI,B.j,o,o),o,o,new A.al2(p,a),o,o),o,o)],r),B.aw,B.jV,B.aA)],r),B.aw,B.jW,B.aA),A.cR(A.mk(!1,!0,new A.bt(B.cp,A.bp("My Balance "+p.f,o,o,o,A.bS(o,o,B.j,o,o,o,o,o,o,o,o,14,o,o,B.bo,o,o,!0,o,o,o,o,o,o,o,o),o,o),o),o,!0,o,o,o,o,o,o,o,o,o,new A.al3(p,a),o,o,o,o),o,o)],r),B.b9,B.az,B.aA),90)
+return A.Mg(q,s,p.r?A.cR(new A.wk(o,o,B.j,o,o,o,o),o,o):A.JP(A.b([p.iS(20),p.iS(30),p.iS(50),p.iS(100),p.iS(200),p.iS(300),p.iS(500),p.iS(1000),p.iS(3000),p.iS(5000),p.iS(8000)],r),B.ac))},
 iS(a){var s,r,q,p=null,o=$.i5(),n=A.i8(10),m=A.i8(360)
 m=A.hu(A.rv("asset/logof.png",80,80),p,p,p,new A.c7(m,B.q))
 s=t.E
@@ -44930,7 +44931,7 @@ n=B.c.k(o[p])
 A.rL(q.b,"You Won Rs "+n)
 m.vB().bi(new A.alG(m,n),t.P)}s=3
 break
-case 4:A.iw(q.b,!1).zO(null)
+case 4:A.iw(q.b,!1).zO(!0)
 case 3:return A.K(null,r)}})
 return A.L($async$$0,r)},
 $S:19}
@@ -75200,7 +75201,8 @@ gmt(){return this.gGX()?B.xw:B.hE},
 ut(a,b){},
 nv(a){this.ahh(a)
 return!0},
-ahh(a){this.e.fj(0,null)},
+ahh(a){var s=a==null?null:a
+this.e.fj(0,s)},
 py(a){},
 nu(a){},
 ahf(a){},
@@ -75600,9 +75602,11 @@ e=c
 break
 case 11:break
 case 9:a0=p.a
+a1=p.x
+if(a1==null)a1=b1
 a0=a0.e.a
 if((a0.a&30)!==0)A.ar(A.a6("Future already completed"))
-a0.ia(b1)
+a0.ia(a1)
 p.x=null
 p.d=B.VF
 continue $label0$1
