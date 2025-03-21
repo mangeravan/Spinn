@@ -44981,7 +44981,7 @@ A.alq.prototype={
 $0(){var s,r=this.b
 if(500<=A.vD(this.a.f)){s=A.p1(new A.alp(),null,t.z)
 A.fr(r,!1).kl(s)}else{A.fr(r,!1).o0(null)
-A.oZ(r,"Withdraw Amount Starting RS 500")}},
+A.oZ(r,"Withdraw Amount Maximum RS 500")}},
 $S:0}
 A.alp.prototype={
 $1(a){return new A.m8("Withdraw",null)},
